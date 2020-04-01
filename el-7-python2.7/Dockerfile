@@ -12,8 +12,6 @@ RUN    yum install -y  epel-release \
     && yum install -y  python-pip \ 
     && yum clean all
 
-
-
 CMD ["/usr/bin/python"]
 
 
